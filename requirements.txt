@@ -1,0 +1,29 @@
+# Content Research & Strategy AI Agent Dependencies
+
+# FastAPI and web server
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+slowapi==0.1.9
+gunicorn==21.2.0
+
+# Core LangGraph dependencies
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+
+# Configuration and settings
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-dotenv>=1.0.0
+
+# API clients
+tavily-python>=0.5.0
+openai>=1.0.0
+
+# Utilities
+typing-extensions>=4.5.0
+
+# Optional (for enhanced functionality)
+beautifulsoup4>=4.12.0
+aiohttp>=3.9.0
+
